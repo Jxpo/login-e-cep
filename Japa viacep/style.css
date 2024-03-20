@@ -1,0 +1,59 @@
+:root{
+    background-image: linear-gradient(to left, rgb(91, 91, 218) , rgb(139, 237, 139), rgb(234, 193, 117) );
+    background-size: 300% 100%;
+    animation: degrade 5s infinite alternate;
+
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+label,input{
+    border-radius: 5px;
+    width: 80px;
+    display: flex;
+    display: inline-block;
+    width: 500px;
+    margin-top: 4px;
+    height: 20px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 500px;
+    width: 700px;
+    flex-direction: column;
+    border-radius: 40px;
+    box-shadow: 20px 20px 70px black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
